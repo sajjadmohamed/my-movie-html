@@ -1,0 +1,91 @@
+<!-- ----------8:00----------- -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Movies Website</title>
+		<!-- ------link to css-------- -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- ------fav Icon----------- -->
+		<link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
+		<!-- ------Box Icons---------- -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- -------Headeer----- -->
+		<header>
+			<div class="nav container">
+				<!-- logo -->
+				<a href="index.html" class="logo"> Movie<span>Vel</span> </a>
+				<!-- ----search Box------ -->
+				<div class="search-box">
+					<input
+						type="search"
+						name=""
+						id="search-input"
+						placeholder="search movie..."
+					/>
+					<i class="bx bx-search"></i>
+				</div>
+				<!-- --User -->
+				<a href="#" class="user">
+					<img src="/img/user.jpg" class="user-img" />
+				</a>
+				<!-- ------NavBar---- -->
+				<div class="navbar">
+					<a href="#home" class="nav-link nav-active">
+						<i class="bx bx-home"></i>
+						<span class="nav-link-title">Home</span>
+					</a>
+					<a href="#home" class="nav-link">
+						<i class="bx bxs-hot"></i>
+						<span class="nav-link-title">Treding</span>
+					</a>
+					<a href="#home" class="nav-link">
+						<i class="bx bx-compass"></i>
+						<span class="nav-link-title">Explore</span>
+					</a>
+					<a href="#home" class="nav-link">
+						<i class="bx bx-tv"></i>
+						<span class="nav-link-title">Movies</span>
+					</a>
+					<a href="#home" class="nav-link">
+						<i class="bx bx-heart"></i>
+						<span class="nav-link-title">Favourite</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<!-- -------Home ----->
+		<section class="home container" id="home">
+			<!-- ------Home Image -->
+			<img src="/img/home-background.png" class="home-img" />
+			<!-- ------Home Text -->
+			<div class="home-text">
+				<h1 class="home-title">Hitman's Wife's <br />Bodyguard</h1>
+				<p>Releasing 10 April</p>
+				<a href="#" class="watch-btn">
+					<i class="bx bx-right-arrow"></i>
+					<span>Watch the trailer</span>
+				</a>
+			</div>
+		</section>
+		<!-- Home END -->
+		<!-- Popular Section start -->
+		<section class="popular container" id="popular">
+			<!-- Heaaing -->
+			<div class="heading">
+				<h2 class="heading-title">Popular Movies</h2>
+			</div>
+		</section>
+		<!-- Popular END---------- -->
+
+		<!-- ---------link to script------- -->
+		<script src="script.js"></script>
+	</body>
+</html>
