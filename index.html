@@ -1,91 +1,351 @@
-<!-- ----------8:00----------- -->
 <!DOCTYPE html>
 <html lang="en">
+	<!-- ----------8:00----------- -->
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Responsive Movies Website</title>
-		<!-- ------link to css-------- -->
+		<title>Red Store Website Design</title>
 		<link rel="stylesheet" href="style.css" />
-		<!-- ------fav Icon----------- -->
-		<link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
-		<!-- ------Box Icons---------- -->
 		<link
-			href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+			href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
 	</head>
 	<body>
-		<!-- -------Headeer----- -->
-		<header>
-			<div class="nav container">
-				<!-- logo -->
-				<a href="index.html" class="logo"> Movie<span>Vel</span> </a>
-				<!-- ----search Box------ -->
-				<div class="search-box">
-					<input
-						type="search"
-						name=""
-						id="search-input"
-						placeholder="search movie..."
-					/>
-					<i class="bx bx-search"></i>
-				</div>
-				<!-- --User -->
-				<a href="#" class="user">
-					<img src="/img/user.jpg" class="user-img" />
-				</a>
-				<!-- ------NavBar---- -->
+		<div class="header">
+			<div class="container">
 				<div class="navbar">
-					<a href="#home" class="nav-link nav-active">
-						<i class="bx bx-home"></i>
-						<span class="nav-link-title">Home</span>
-					</a>
-					<a href="#home" class="nav-link">
-						<i class="bx bxs-hot"></i>
-						<span class="nav-link-title">Treding</span>
-					</a>
-					<a href="#home" class="nav-link">
-						<i class="bx bx-compass"></i>
-						<span class="nav-link-title">Explore</span>
-					</a>
-					<a href="#home" class="nav-link">
-						<i class="bx bx-tv"></i>
-						<span class="nav-link-title">Movies</span>
-					</a>
-					<a href="#home" class="nav-link">
-						<i class="bx bx-heart"></i>
-						<span class="nav-link-title">Favourite</span>
-					</a>
+					<!-- ----------logo----------- -->
+					<div class="logo">
+						<img src="/img/poop9.png" alt="">
+					</div>
+					<nav>
+						<ul id="MenuItems">
+							<li><a href="">Home</a></li>
+							<li><a href="">Products</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">Account</a></li>
+						</ul>
+					</nav>
+					<img src="/img/img21.png" class="catr" />
+					
+				</div>
+				<div class="row">
+				
 				</div>
 			</div>
-		</header>
-		<!-- -------Home ----->
-		<section class="home container" id="home">
-			<!-- ------Home Image -->
-			<img src="/img/home-background.png" class="home-img" />
-			<!-- ------Home Text -->
-			<div class="home-text">
-				<h1 class="home-title">Hitman's Wife's <br />Bodyguard</h1>
-				<p>Releasing 10 April</p>
-				<a href="#" class="watch-btn">
-					<i class="bx bx-right-arrow"></i>
-					<span>Watch the trailer</span>
-				</a>
-			</div>
-		</section>
-		<!-- Home END -->
-		<!-- Popular Section start -->
-		<section class="popular container" id="popular">
-			<!-- Heaaing -->
-			<div class="heading">
-				<h2 class="heading-title">Popular Movies</h2>
-			</div>
-		</section>
-		<!-- Popular END---------- -->
+		</div>
 
-		<!-- ---------link to script------- -->
-		<script src="script.js"></script>
+		<!-- ---------featured categories-------- -->
+		<div class="categories">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-3">
+						<img src="/img/img-14.JPG">
+					</div>
+					<div class="col-3">
+						<img src="/img/img-13.JPG">
+					</div>
+					<div class="col-3">
+						<img src="/img/img-12.JPG">
+					</div>
+			</div>
+		</div>
+		</div>
+		<!-- ---------featured products-------- -->
+		<div class="small-container">
+			<h2 class="title"><span>New Movies</span></h2>
+			<div class="row">
+				<div class="col-4">
+					<img src="/img/img-1.JPG" />
+					<h4><span> Most Requested</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$59.99</p>
+				</div>
+				<div class="col-4">
+					<img src="img/img-9.JPG" />
+					<h4><span> Red Printed T-shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$199.99</p>
+				</div>
+				<div class="col-4">
+					<img src="/img/img10.JPG" />
+					<h4><span>Red Printed T-shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>$99.99</p>
+				</div>
+				<div class="col-4">
+					<img src="/img/img-3.JPG" />
+					<h4><span>Red Printed T-shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$89.99</p>
+				</div>
+			</div>
+		
+			<!-- --------------------(2)------------------------ -->
+			<h2 class="title"><span> More Interesting</h2>
+				<div class="row">
+					<div class="col-4">
+						<img src="/img/img-4.JPG" />
+						<h4><span> Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$79.99</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/img-5.JPG" />
+						<h4><span> Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$29.99</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/img-6.JPG" />
+						<h4><span>Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>$39.99</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/img-7.JPG" />
+						<h4><span>Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$599.99</p>
+					</div>
+				</div>
+				<h2 class="title"><span> Monst Viewed</h2>
+				<div class="row">
+					<div class="col-4">
+						<img src="img/img-8.JPG" />
+						<h4><span> Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$399.99</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/movie-1.jpg" />
+						<h4><span> Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$120.00</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/movie-3.jpg" />
+						<h4><span>Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>$65.00</p>
+					</div>
+					<div class="col-4">
+						<img src="/img/img-4.JPG" />
+						<h4><span>Red Printed T-shirt</h4>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>$49.99</p>
+					</div>
+				</div>
+				<!-- -------------offer------------------ -->
+				<div class="offer">
+					<div class="small-container">
+						<div class="row">
+							<div class="col-2">
+								<img src="/img/img02.PNG" class="offer-img">
+							</div>
+							<div class="col-2">
+								
+								<h1>What movie?
+								</h1>
+								<small>"TheFind movies currently in theaters near you. Sort by critic rating, get movie times, buy tickets and watch trailers and interviews.</small>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- -----------------testimonial--------------- -->
+				<div class="testimonial">
+					<h2 class="title"><span>comments</h2>
+					<div class="small-container">
+						<div class="row">
+							<div class="col-3">
+								<i class="fa fa-quote-left"></i>
+								<p>Jul 27, 2020 — Movies move us like nothing else can, whether they're scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<img src="/img/user-3.png">
+									<h3>Gary Rick</h3>
+							</div>
+							<div class="col-3">
+								<i class="fa fa-quote-left"></i>
+								<p>Jul 27, 2020 — Movies move us like nothing else can, whether they're scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-o"></i>
+									</div>
+									<img src="/img/user-1.png">
+									<h3> William Wayne</h3>
+							</div>
+							<div class="col-3">
+								<i class="fa fa-quote-left"></i>
+								<p>Jul 27, 2020 — Movies move us like nothing else can, whether they're scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</p>
+									<div class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o"></i>
+									</div>
+									<img src="/img/user-2.png">
+									<h3>Christina Lone</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ----------------brands------------- -->
+			<div class="brands">
+				<div class="small-container">
+					<div class="row">
+						<div class="col-5">
+							<img src="/img/img15.png">
+						</div>
+						<div class="col-5">
+							<img src="/img/img16.png">
+						</div>
+						<div class="col-5">
+							<img src="/img/img17.png">
+						</div>
+						<div class="col-5">
+							<img src="/img/img18.png">
+						</div>
+						<div class="col-5">
+							<img src="/img/img19.png">
+						</div>
+					</div>
+				</div>    
+			</div>
+
+			<!-- --------------footer----------------------- -->
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-col-1">
+							<h3>Download Our Add</h3>
+							<p>"Download Add for Android and ios mobile phone.</p>
+							<div class="add-logo">
+								<img src="/img/img20.png">
+								<img src="/img/img22.png">
+							</div>
+						</div>
+						<div class="footer-col-2">
+							<img src="/img/poop9.png" alt="">
+							<p>"Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+						</div>
+						<div class="footer-col-3">
+							<h3>Useful Links</h3>
+							<ul>
+								<li>Coupons</li>
+								<li>Blog Post</li>
+								<li>Return Policy</li>
+								<li>Join Affiliate</li>
+							</ul>
+						</div>
+						<div class="footer-col-4">
+							<h3>Follow Us</h3>
+							<ul>
+								<li>Facebook</li>
+								<li>Twitter</li>
+								<li>Instagram</li>
+								<li>YouTube</li>
+							</ul>
+						</div>
+					</div>
+					<hr>
+					<p class="copyright">Copyright 2022 - Easy Tutorials</p>
+				</div>
+			</div>
+
+				
+
+		
 	</body>
 </html>
+
