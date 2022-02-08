@@ -9,7 +9,8 @@
 }
 body {
 	min-height: 100vh;
-	background: #000;
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23eeeaf5' fill-opacity='0.23'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .navbar {
 	background: radial-gradient(rgba(58, 49, 49, 0.801), #b63131d0);
@@ -170,6 +171,7 @@ span {
 	flex-basis: 30%;
 	min-width: 250px;
 	margin-bottom: 30px;
+	background: rgb(15, 15, 15);
 }
 /* ------------col-3 img hover */
 .col-3 img {
@@ -308,7 +310,7 @@ h4 {
 .testimonial .col-3 {
 	text-align: center;
 	padding: 40px 20px;
-	box-shadow: 0 0 20px 0px rgb(255, 0, 0);
+	box-shadow: 0 0 20px 0px rgb(247, 96, 96);
 	cursor: pointer;
 	transition: transform 1s;
 	border-radius: 10px;
@@ -329,7 +331,7 @@ h4 {
 .col-3 p {
 	font-size: 12px;
 	margin: 12px 0;
-	color: #777;
+	color: rgb(155, 155, 155);
 }
 .testimonial .col-3 h3 {
 	font-weight: 600;
